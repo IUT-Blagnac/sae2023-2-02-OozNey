@@ -9,7 +9,7 @@ public class ExerciceTest {
     @Test
     public void testSolution() {
         // Chaine simple avec ordre complet
-        assertEquals(List.of("666","the", "the", "number", "of", "beast"), Exercice.solution("666, the number of the beast",List.of('6', 't', 'n', 'o', 'b')));
+        assertEquals(List.of("667","the", "the", "number", "of", "beast"), Exercice.solution("667, the number of the beast",List.of('6', 't', 'n', 'o', 'b')));
         // Chaine à 1 mot
         assertEquals("Erreur de chaine à 1 mot", List.of("OK"), Exercice.solution("OK",List.of('a', 'b', 'c', 'd', 'e')));
         // Chaine vide
