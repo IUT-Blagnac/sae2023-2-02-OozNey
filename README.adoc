@@ -196,18 +196,19 @@ Voici les pré-requis pour exécuter nos codes d'évaluation.
 
 - Java
 - Un IDE (comme par exemple Eclipse)
+-La Librairiz Junit
 
 === Reproductibilité
 
 - Pour reproduire nos analyses :
-. Installez X
-. Lancez Y
-. ...
+. Vous pouvez tester le temp d'exécution a l'aide du code TimeTester
+. insérez le code avant la temporisation de 5 secondes et lancez le "Run"
 
 === Références
 Outil utilisé pour mesurer les temps de code
 - link:https://docs.oracle.com/javase/8/docs/api/java/util/concurrent/TimeUnit.html
 J'ai utilisé globalement beaucoup de fonction de java.util
+j'ai essayé d'utiliser Joular pour la mémoire
 
 == Généralités, notation de la SAÉ et résultat du concours
 
