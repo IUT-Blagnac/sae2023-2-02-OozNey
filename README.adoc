@@ -194,8 +194,8 @@ WARNING: Les répertoires et fichiers existants devront être complétés et mis
 
 Voici les pré-requis pour exécuter nos codes d'évaluation.
 
-- Java v.x.y.z
-- ...
+- Java
+- Un IDE (comme par exemple Eclipse)
 
 === Reproductibilité
 
@@ -205,9 +205,9 @@ Voici les pré-requis pour exécuter nos codes d'évaluation.
 . ...
 
 === Références
-
-- link:http://xyz[Mon super outil XYZ]
-- ...
+Outil utilisé pour mesurer les temps de code
+- link:https://docs.oracle.com/javase/8/docs/api/java/util/concurrent/TimeUnit.html
+J'ai utilisé globalement beaucoup de fonction de java.util
 
 == Généralités, notation de la SAÉ et résultat du concours
 
